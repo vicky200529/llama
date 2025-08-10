@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../public/style.css">
+  <title>Document</title>
+</head>
+<body class="body"> 
+  <form action="/chat" method="post">
+    <textarea name="prompt" rows="5" cols='20'
+    placeholder="Typehere" id="chat" type="text">
+  </textarea>
+  <br>
+  <button>SEND</button>
+  </form>
+  <%if(output){%>
+    <%output%>
+  <%}%>
+
+</body>
+</html>
